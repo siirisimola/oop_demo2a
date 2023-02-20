@@ -12,9 +12,9 @@ public class Muistivihko {
     private ArrayList<String> muistiinpanot;
 
     /**
-     * Metodi luo uuden muistiinpanon
-     * @param nimi on merkkijono
-     * @param omistaja on niinikään merkkijono
+     * Metodi luo uuden muistivihon
+     * @param nimi on muistivihon käyttäjälle näkyvä nimi (merkkijono), esim. päiväkirja, kauppalista tai kilometriloki
+     * @param omistaja on muistivihon omistaja (merkkijono)
      */
 
     public Muistivihko(String nimi, String omistaja) {
@@ -23,30 +23,57 @@ public class Muistivihko {
         muistiinpanot = new ArrayList<>();
     }
 
+    /**
+    Palauttaa nimen
+     @return nimi
+     */
     public String getNimi() {
         return nimi;
     }
 
+    /**
+     * Asettaa nimen
+     * @param nimi
+     */
     public void setNimi(String nimi) {
         this.nimi = nimi;
     }
 
+    /**
+     * Palauttaa omistajan
+     * @return omistaja
+     */
     public String getOmistaja() {
         return omistaja;
     }
 
+    /**
+     * Asettaa omistajan
+     * @param omistaja tieto siitä kuka muistivihon omistaa
+     */
     public void setOmistaja(String omistaja) {
         this.omistaja = omistaja;
     }
 
+    /**
+     * Lisää uuden muistiinpanon
+     * @param viesti merkkijonomuotoinen uusi muistiinpano
+     */
     public void lisaaMuistiinpano(String viesti) {
         this.muistiinpanot.add(viesti);
     }
 
+    /**
+     * Palauttaa muistiinpanojen määrän
+     * @return muistiinpanojen määrän
+     */
     public int muistiinpanoja() {
         return muistiinpanot.size();
     }
 
+    /**
+     * Tulostaa muistikirjassa olevat muistiinpanot
+     */
     public void tulostaMuistiinpanot() {
         for(String viesti : muistiinpanot) {
             System.out.println(viesti);
