@@ -25,7 +25,7 @@ public class Muistivihko {
 
     /**
     Palauttaa nimen
-     @return nimi
+     @return nimi on muistivihon nimi, esim. em. kauppalista
      */
     public String getNimi() {
         return nimi;
@@ -33,7 +33,7 @@ public class Muistivihko {
 
     /**
      * Asettaa nimen
-     * @param nimi
+     * @param nimi muistivihon nimi
      */
     public void setNimi(String nimi) {
         this.nimi = nimi;
@@ -41,7 +41,7 @@ public class Muistivihko {
 
     /**
      * Palauttaa omistajan
-     * @return omistaja
+     * @return omistaja muistivihon omistaja
      */
     public String getOmistaja() {
         return omistaja;
