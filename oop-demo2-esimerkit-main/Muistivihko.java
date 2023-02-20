@@ -1,9 +1,21 @@
 import java.util.ArrayList;
 
+/**
+ * Luokka mallintaa muistivihon toimintaa. Käyttäjä voi lisätä muistiinpanoja ja saada selville niiden määrän.
+ *
+ * @author Siiri
+ */
+
 public class Muistivihko {
     private String nimi;
     private String omistaja;
     private ArrayList<String> muistiinpanot;
+
+    /**
+     * Metodi luo uuden muistiinpanon
+     * @param nimi on merkkijono
+     * @param omistaja on niinikään merkkijono
+     */
 
     public Muistivihko(String nimi, String omistaja) {
         this.nimi = nimi;

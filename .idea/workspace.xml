@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="885265e2-cae8-4a77-8c88-dcd9013edbfc" name="Changes" comment="" />
+    <list default="true" id="885265e2-cae8-4a77-8c88-dcd9013edbfc" name="Changes" comment="aloitus">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-demo2-esimerkit-main/Muistivihko.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop-demo2-esimerkit-main/Muistivihko.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-demo2-esimerkit-main/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oop-demo2-esimerkit-main/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LscyyalRdSwtSWM4654G3QJ5tB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,7 +40,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/simol/oop_demo2a"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -28,6 +53,23 @@
       <option name="presentableId" value="Default" />
       <updated>1676663492986</updated>
     </task>
+    <task id="LOCAL−00001" summary="aloitus">
+      <created>1676663780706</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1676663780706</updated>
+    </task>
+    <task id="LOCAL−00002" summary="aloitus">
+      <created>1676663874548</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1676663874548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aloitus" />
+    <option name="LAST_COMMIT_MESSAGE" value="aloitus" />
   </component>
 </project>
